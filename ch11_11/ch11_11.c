@@ -23,7 +23,7 @@ int main()
     return 0;
 }
 
-void merge(int *A, int *B, int*C, int size)
+void merge(int *A, int *B, int* C, int size)
 {
     int i = 0;
     int j = 0;
