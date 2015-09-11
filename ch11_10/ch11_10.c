@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 void get_lcm_gcd(int x, int y, int *p_lcm, int *p_gcd);
-int gcd(int x, int y);
-int lcm(int x, int y);
+int get_gcd(int x, int y);
+int get_lcm(int x, int y);
 
 int main()
 {
@@ -21,21 +21,21 @@ int main()
 
 void get_lcm_gcd(int x, int y, int *p_lcm, int *p_gcd)
 {
-    *p_gcd = gcd(x, y);
-    *p_lcm = lcm(x, y);
+    *p_gcd = get_gcd(x, y);
+    *p_lcm = get_lcm(x, y);
 }
 
-int gcd(int x, int y)
+int get_gcd(int x, int y)
 {
     if (y == 0) {
         return x;
     }
     else {
-        return gcd(y, x % y);
+        return get_gcd(y, x % y);
     }
 }
 
-int lcm(int x, int y)
+int get_lcm(int x, int y)
 {
-    return (x * y) / gcd(x, y);
+    return (x * y) / get_gcd(x, y);
 }
