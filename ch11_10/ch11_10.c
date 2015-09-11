@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int gcd(int x, int y);
-int gcd2(int x, int y);
 void get_lcm_gcd(int x, int y, int *p_lcm, int *p_gcd);
+int gcd(int x, int y);
+int lcm(int x, int y);
 
 int main()
 {
