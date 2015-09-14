@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int search(int *A, int size, int search_value);
 
@@ -7,7 +7,7 @@ int main()
     int salary[] = { 1200000, 1400000, 4900000, 3700000, 2000000, 4800000 };
     int idx = search(salary, 6, 2000000);
 
-    printf("¿ù±ŞÀÌ 2,000,000¿øÀÎ »ç¶÷Àº %d¹øÀÔ´Ï´Ù.\n", idx);
+    printf("ì›”ê¸‰ì´ 2,000,000ì›ì¸ ì‚¬ëŒì€ %dë²ˆì…ë‹ˆë‹¤.\n", idx);
     return 0;
 }
 

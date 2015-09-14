@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 void merge(int *A, int *B, int*C, int size);
 void print_array(int *arr, int size);
@@ -11,13 +11,13 @@ int main()
 
     merge(a, b, c, 4);
 
-    printf("¹è¿­ AÀÇ ³»¿ë:");
+    printf("ë°°ì—´ Aì˜ ë‚´ìš©:");
     print_array(a, 4);
     
-    printf("¹è¿­ BÀÇ ³»¿ë:");
+    printf("ë°°ì—´ Bì˜ ë‚´ìš©:");
     print_array(b, 4);
 
-    printf("ÇÕÃÄÁø ¹è¿­ CÀÇ ³»¿ë:");
+    printf("í•©ì³ì§„ ë°°ì—´ Cì˜ ë‚´ìš©:");
     print_array(c, 8);
 
     return 0;

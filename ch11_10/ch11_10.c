@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 void get_lcm_gcd(int x, int y, int *p_lcm, int *p_gcd);
 int get_gcd(int x, int y);
@@ -13,8 +13,8 @@ int main()
 
     get_lcm_gcd(a, b, &lcm, &gcd);
 
-    printf("%d¿Í %dÀÇ ÃÖ¼Ò°ø¹è¼ö: %d\n", a, b, lcm);
-    printf("%d¿Í %dÀÇ ÃÖ´ë°ø¾à¼ö: %d\n", a, b, gcd);
+    printf("%dì™€ %dì˜ ìµœì†Œê³µë°°ìˆ˜: %d\n", a, b, lcm);
+    printf("%dì™€ %dì˜ ìµœëŒ€ê³µì•½ìˆ˜: %d\n", a, b, gcd);
 
     return 0;
 }
